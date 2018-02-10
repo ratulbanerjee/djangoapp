@@ -24,7 +24,7 @@ node {
 
    docker.withRegistry('https://649347328056.dkr.ecr.us-west-2.amazonaws.com/ratulbanerjee/djangoapp', 'ecr:us-west-2:demo-ecr-credentials') {
          docker.image('demo').push('latest')
-  }
+   }
         }
-    }
+    
 }
